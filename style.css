@@ -1,0 +1,113 @@
+/*RESET*/
+body{
+  margin: 0;
+  padding: 0;
+  color: #444;
+}
+
+/*HEADER*/
+header{
+  height: 150px;
+  overflow: hidden;
+}
+header h1{
+  font-size: 25px;
+  height: 100px;
+  width: 300px;
+  margin: 25px;
+  line-height: 100px;
+  text-align: center;
+  background: #eee;
+  border-radius: 100px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+}
+
+/*SITE WIDTH*/
+.site-width{
+  width: 70%;
+  margin: 0 auto;
+}
+section h1.title{
+  text-align: center;
+  font-size: 22px;
+}
+section p{
+  color: #ff4d4b;
+  text-align: center;
+  font-size: 15px;
+  margin: 0;
+}
+
+/*CONTACT*/
+#contact{
+  margin-top: 30px;
+  margin-bottom: 100px;
+}
+
+/*FORM*/
+form{
+  margin: 50px auto;
+  width: 50%;
+}
+input,textarea{
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+input[type="text"]{
+  width: 100%;
+  height: 50px;
+  border: none;
+  background: #f6f5f5;
+  padding: 10px;
+  box-sizing: border-box;
+}
+textarea{
+  width: 100%;
+  height: 300px;
+  border: none;
+  background: #f6f5f5;
+  padding: 10px;
+  box-sizing: border-box;
+}
+input[type="submit"]{
+  background: rgb(105, 105, 105);
+  border: none;
+  font-size: 15px;
+  padding: 10px 20px;
+  color: white;
+  float: right;
+}
+input[type="submit"]:hover{
+  cursor: pointer;
+  background: #333;
+}
+
+/*FOOTER*/
+footer{
+  text-align: center;
+  font-size: 12px;
+  height: 40px;
+  line-height: 40px;
+  background-color: #eee;
+}
+
+/*VALIDATION*/
+.help-block{
+  font-size:14px;
+  margin-left: 10px;
+}
+/*ERROR*/
+.has-error input, .has-error textarea{
+  border: 1px solid #ff4d4b;
+}
+.has-error .help-block, .has-error label{
+  color: #ff4d4b;
+}
+/*SUCCESS*/
+.has-success input, .has-success textarea{
+  border: 1px solid #2fb4ce;
+}
+.has-success .help-block, .has-success label{
+  color: #2fb4ce;
+}
